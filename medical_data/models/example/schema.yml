@@ -1,0 +1,41 @@
+
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: medical_data_load
+
+models:
+  - name: medical_data_transformation
+    description: "This model load telegram messages containing media file."
+    columns:
+      - name: Channel Title
+        description: "The name of the channel"
+        data_tests:
+          - not_null
+      - name: Channel Username
+        description: "The username of the channel"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['CheMed123', 'EAHCI']
+      - name: ID
+        description: "The uniquen number associated with each post"
+        data_tests:
+          - unique
+          - not_null
+      - name: Message
+        description: "Posts of the channel"
+        data_tests:
+          - not_null
+      - name: Date
+        description: "The date and time of the post"
+        data_tests:
+          - not_null
+      - name: Media Path
+        description: "Link of each media"
+        data_tests:
+          - not_null
+

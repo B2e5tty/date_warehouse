@@ -1,0 +1,11 @@
+.env
+*.log
+*.csv
+myenv
+notebooks/photos
+notebooks/scrapping_session.session
+logs/error.log
+logs/info.log
+logs/scrapping.log
+logs/dbt.log
+
