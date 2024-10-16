@@ -2,10 +2,12 @@
 *.log
 *.csv
 myenv
+new_env
 notebooks/photos
 notebooks/scrapping_session.session
 logs/error.log
 logs/info.log
 logs/scrapping.log
 logs/dbt.log
-
+*.pt
+yolov5
