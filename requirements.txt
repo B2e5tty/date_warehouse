@@ -3,3 +3,8 @@ dotenv
 SQLAlchemy
 psycopg2
 dbt-postgres
+opencv-python
+torch
+torchvision
+tensorflow
+python 3.10
