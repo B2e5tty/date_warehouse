@@ -1,1 +1,3 @@
-This folder contains notebook file that contains the procedure of task 1 and task 2.
+This folder contains notebook files with specific tasks:
+- **task1_task2.ipynb:** procedures of scrapping two telegram channels, exporting the file to database and performing DBT.
+- **obiect_detection.ipynb:** consists of object detection using YOLO and exporting the detection result to database.
